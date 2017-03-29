@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:checked="false"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_station_info"
+            android:icon="@drawable/station"
+            android:checked="false"
+            android:title="Stations Information" />
+        <item
+            android:id="@+id/nav_route"
+            android:icon="@drawable/routes_icon"
+            android:checked="false"
+            android:title="Route Between Station" />
+        <item
+            android:id="@+id/nav_near"
+            android:icon="@drawable/near_station_icon"
+            android:checked="false"
+            android:title="Nearest Metro Station" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about_icon"
+            android:checked="false"
+            android:title="About" />
+
+    </group>
+
+</menu>

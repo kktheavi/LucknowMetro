@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/common_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        android:background="@drawable/background_top_shadow"
+        android:weightSum="2"
+        >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1.6"
+            android:layout_gravity="center_vertical"
+            android:padding="10dp">
+
+            >
+
+            <EditText
+                android:id="@+id/starting_station"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:hint="Starting Station"
+                android:padding="10dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/tab_background" />
+
+
+
+
+            <EditText
+                android:id="@+id/detination_station"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:hint="Destination Station"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/tab_background" />
+
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/search"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.4"
+            android:src="@drawable/search_route" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/station_route"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:scrollbars="none" />
+</LinearLayout>

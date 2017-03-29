@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/single_dfssfslist_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:padding="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/background_top_shadow"
+        >
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:src="@drawable/station"
+        android:layout_weight="0.5"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center_vertical"
+        />
+    <TextView
+        android:id="@+id/station_name1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2.5"
+        android:text="asda"
+        android:layout_marginLeft="50dp"
+        android:textSize="@dimen/medium_text"
+        android:textColor="@color/header_text"
+        android:textStyle="bold"
+        android:shadowColor="@color/black"
+        android:layout_gravity="center_vertical"
+        />
+    </LinearLayout>
+
+
+</LinearLayout>
